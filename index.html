@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--! Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--! Stylesheet link -->
+    <link rel="stylesheet" href="./style/style.css">
+    <!--! Google font links (font: Young Serif) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+    <!-- Icon and title -->
+    <link rel="icon" href="./style/images/chess-solid.svg" >
+    <title>Chess</title>
+</head>
+<body>
+    <!-- Gameboard(main div where chess board generates) -->
+    <div class="gameboard" id="gameboard">
+
+    </div>
+    <!-- Information display(here are displayed which players turn it is, which player won, and other informations) -->
+    <div class="info-tab">
+        <p>It is <span id="player"> </span>'s go.</p><!-- player turn display -->
+        <div class="gap"></div>
+        <p id="win-display"></p><!-- winner display -->
+        <div class="gap"></div>
+        <p id="info-display"></p><!-- other information display -->
+    </div>
+
+    <!--! script files -->
+    <script src="./script/pieces.js"></script>
+    <script src="./script/app.js"></script>
+</body>
+</html>
